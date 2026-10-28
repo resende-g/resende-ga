@@ -1,0 +1,143 @@
+:root,
+.light {
+  color-scheme: light;
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Inter, Roboto, "Helvetica Neue", Arial, sans-serif;
+  --bg: #e2e3e6;
+  --fg: #26282c;
+  --sidebar-bg: rgba(255, 255, 255, 0.72);
+  --sidebar-fg: #26282c;
+  --sidebar-non-existant: #5c6068;
+  --sidebar-active: #8f0f1c;
+  --sidebar-spacer: rgba(30, 32, 36, 0.12);
+  --scrollbar: #8d9199;
+  --icons: #5c6068;
+  --icons-hover: #8f0f1c;
+  --links: #8f0f1c;
+  --inline-code-color: #6a2630;
+  --theme-popup-bg: rgba(255, 255, 255, 0.94);
+  --theme-popup-border: rgba(30, 32, 36, 0.16);
+  --theme-hover: rgba(143, 15, 28, 0.08);
+  --quote-bg: rgba(255, 255, 255, 0.45);
+  --quote-border: rgba(143, 15, 28, 0.24);
+  --warning-border: #8f0f1c;
+  --table-border-color: rgba(30, 32, 36, 0.12);
+  --table-header-bg: rgba(255, 255, 255, 0.62);
+  --table-alternate-bg: rgba(255, 255, 255, 0.28);
+  --searchbar-border-color: rgba(30, 32, 36, 0.26);
+  --searchbar-bg: rgba(255, 255, 255, 0.75);
+  --searchbar-fg: #26282c;
+  --searchbar-shadow-color: rgba(143, 15, 28, 0.22);
+  --searchresults-header-fg: #4b4e55;
+  --searchresults-border-color: rgba(30, 32, 36, 0.18);
+  --searchresults-li-bg: rgba(143, 15, 28, 0.08);
+  --search-mark-bg: #f0c9cd;
+}
+
+html {
+  font-family: var(--font-sans);
+  background: var(--bg);
+}
+
+body {
+  color: var(--fg);
+  background:
+    radial-gradient(60rem 40rem at 10% -10%, rgba(255, 255, 255, 0.7), transparent 70%),
+    radial-gradient(48rem 36rem at 100% 40%, rgba(255, 255, 255, 0.45), transparent 70%),
+    var(--bg);
+}
+
+.page-wrapper {
+  background: transparent;
+}
+
+#menu-bar {
+  background: rgba(255, 255, 255, 0.76);
+  border-block-end-color: rgba(30, 32, 36, 0.1);
+  -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
+}
+
+#menu-bar .menu-title {
+  color: var(--fg);
+  font-family: var(--font-sans);
+  font-weight: 650;
+}
+
+.sidebar {
+  border-inline-end: 1px solid rgba(30, 32, 36, 0.1);
+  -webkit-backdrop-filter: blur(18px) saturate(140%);
+  backdrop-filter: blur(18px) saturate(140%);
+}
+
+.chapter li a.active {
+  padding-inline: 0.65rem;
+  border-radius: 999px;
+  background: rgba(143, 15, 28, 0.08);
+}
+
+.content main {
+  max-width: 78rem;
+  padding: clamp(1.8rem, 4vw, 3.6rem);
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.62);
+  box-shadow: 0 12px 36px rgba(30, 32, 36, 0.1), 0 0 0 1px rgba(30, 32, 36, 0.05), inset 0 1px 0 rgba(255, 255, 255, 0.95);
+  -webkit-backdrop-filter: blur(18px) saturate(140%);
+  backdrop-filter: blur(18px) saturate(140%);
+}
+
+.content h1,
+.content h2,
+.content h3 {
+  color: var(--fg);
+  font-family: var(--font-sans);
+  font-weight: 650;
+  letter-spacing: -0.02em;
+}
+
+.content p,
+.content li {
+  line-height: 1.6;
+}
+
+.content a:link,
+.content a:visited {
+  color: var(--links);
+}
+
+#searchbar {
+  border-radius: 999px;
+}
+
+#searchbar:focus,
+#searchbar.active {
+  border-color: var(--sidebar-active);
+}
+
+blockquote {
+  border-inline-start: 3px solid var(--sidebar-active);
+  border-block: 0;
+  border-radius: 0 12px 12px 0;
+  padding: 0.8rem 1.2rem;
+}
+
+pre,
+.content table {
+  border-radius: 12px;
+  overflow: auto;
+}
+
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  #menu-bar,
+  .sidebar,
+  .content main {
+    background: rgba(246, 246, 248, 0.97);
+  }
+}
+
+@media (max-width: 620px) {
+  .content main {
+    padding: 1.4rem 1.2rem;
+    border-radius: 18px;
+  }
+}

@@ -1,0 +1,11 @@
+[book]
+authors = ["resende-g"]
+language = "pt-BR"
+src = "src"
+title = "Roteiros dos vídeos"
+description = "Roteiros dos vídeos de resende-g."
+
+[output.html]
+git-repository-url = "https://github.com/resende-g/resende-ga"
+additional-css = ["theme/resende.css"]
+no-section-label = true
