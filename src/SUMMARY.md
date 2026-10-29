@@ -1,4 +1,3 @@
 # Sumário
 
-- [Início](./index.md)
-- [Modelo de roteiro](./modelo.md)
+- [O que é isso?](./index.md)
