@@ -2,6 +2,9 @@
 
 Aqui você encontra os roteiros, textos de apoio e materiais de referência dos vídeos e das lives do canal **Resende_GA**. A proposta é tornar o conteúdo acessível para consulta, estudo e compartilhamento, preservando também os registros escritos das discussões que desenvolvemos por aqui.
 
+--
+
+
 Nosso objetivo é discutir tecnologia para além de suas dimensões estritamente técnicas, investigando suas relações com o Direito, o poder, o trabalho e a sociedade. Isso envolve temas como inteligência artificial, segurança da informação, economia de dados, soberania tecnológica e os impactos das transformações digitais sobre a vida social.
 
 Entendemos que a tecnologia não existe isolada das relações sociais que a produzem. Por isso, buscamos conectar os aspectos técnicos às condições materiais, aos interesses econômicos e às disputas políticas que atravessam seu desenvolvimento e sua utilização.
@@ -10,9 +13,10 @@ Este espaço funciona como um arquivo aberto dos conteúdos do canal. Os roteiro
 
 ## Acompanhe o canal
 
-- **YouTube:** (https://www.youtube.com/@resende_ga)
-- **Instagram:** (https://www.instagram.com/resende_ga/)
-- **GitHub:** (https://github.com/resende-g)
+- **Instagram:** [Resende_GA](https://www.instagram.com/resende_ga/)
+- **Tiktok:** [Resende_GA](https://www.tiktok.com/@resende_ga/)
+- **YouTube:** [Resende_GA](https://www.youtube.com/@resende_ga)
+- **GitHub:** [resende_g](https://github.com/resende-g)
 
 Os roteiros e materiais publicados aqui são um convite à leitura, à crítica e ao debate. O conhecimento se constrói coletivamente, e sua circulação deve contribuir para ampliar o acesso à informação e às ferramentas necessárias para compreender e transformar a realidade.
 
