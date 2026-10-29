@@ -28,3 +28,4 @@ O workflow em `.github/workflows/deploy.yml` compila o livro e o publica em GitH
 ## Licença
 
 O conteúdo original deste repositório está sob **CC0 1.0 Universal**, conforme `LICENSE`. Isso permite que outras pessoas reutilizem os roteiros sem pedir autorização. A licença não cobre materiais de terceiros que você incluir; confira os direitos desses materiais antes de publicá-los.
+Créditos: https://github.com/Soberana-TV/tecnologiaeclasse
