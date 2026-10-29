@@ -2,7 +2,7 @@
 authors = ["resende-g"]
 language = "pt-BR"
 src = "src"
-title = "Roteiros dos vídeos"
+title = "Resende"
 description = "Roteiros dos vídeos de resende-g."
 
 [output.html]
